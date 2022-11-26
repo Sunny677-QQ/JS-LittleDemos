@@ -1,0 +1,46 @@
+/* this is style.css */
+/* 主要写样式 */
+
+*{
+    margin: 0;
+    padding: o;
+}
+
+/* 版心默认样式 */
+.container {
+    display: flex;
+    width: 1350px;
+    top: 100px;
+    margin: 70px auto 0;
+}
+
+/* 常规样式属性 */
+.panel {
+    width: 150px;
+    height:500px;
+    border: 10px solid white;
+    border-radius: 75px;
+    flex-direction: column;
+    flex: 1;
+    flex:100% 100% 0%;
+    cursor:pointer;
+}
+.panel span {
+    position: relative;
+    left: 50px;
+    top: 420px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    opacity: 0;
+}
+
+/* 当前选中的卡片的样式 */
+.active {
+    /* 大小  */
+    flex: 1 0 60%;
+    /* flex:5 1 0%; */
+ 
+    
+}
+
+

@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+    font-family:'YouYuan';
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9d2f7f8;
+}
+
+.bigbox {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #bd58f8;
+    font-size:20vh;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ul {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+input{
+    text-align: left;
+    height: 10vh;
+    width: 75vh;
+    font-size: 7vh;
+    border: 1px white solid;
+    border-radius: 1vh;
+    outline: none;
+    padding: 1rem 2rem;
+    flex: 1;
+}
+input:focus {
+    outline:10px solid #ffffffbe;
+}
+
+.todos {
+    background-color: #fff;
+    width: 75vh;
+    list-style-type: none;
+    flex: 1;
+  }
+  
+  .todos li {
+    text-align: left;
+    font-size: 7vh;
+    cursor: pointer;
+    border-top: 2px #b6b6b6;
+    background-color: white;
+    color: #bd58f8;
+    font-weight: 600;
+    padding: 1rem 1rem;
+  }
+  
+  .todos .completed {
+    color: #b6b6b6;
+    text-decoration: line-through;
+  }
+
+p {
+    text-align: center;
+    color: rgb(141, 141, 141);
+}
+  
